@@ -1,0 +1,104 @@
+/* global */
+
+p, ul, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-text {
+    text-align: center;
+    width: 470px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 2;
+    font-size: 11px;
+}
+
+/* index page */
+
+#index-header {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    text-align: center;
+}
+
+.links-header  {
+    text-align: center;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+ul a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+/* linguistics page */
+
+#table {
+    display: table;
+    border: solid 1px black;
+    padding: 4px;
+    margin-top: 38px;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    padding: 11px;
+    border: 1px solid black;
+}
+
+/* piano page */
+
+#piano-music {
+    width: 330px;
+    margin-top: -28px;
+}
+
+/* psychogeography page */
+
+img {
+    margin-top: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
